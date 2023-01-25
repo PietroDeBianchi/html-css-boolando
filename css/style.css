@@ -21,7 +21,7 @@ a {
     width: 100%;
     position: fixed;
     /* debug */
-    background-color: orange;
+    background-color: rgb(237, 114, 46)
 }
 
 #top-bar {
@@ -51,7 +51,8 @@ li a {
 
 li i {
     color: white;
-    font-size: 20px;
+    font-size: 23px;
+    padding: 0 4px;
 } 
 
 /* top-logo style */
@@ -61,4 +62,17 @@ li i {
 
 #top-logo img {
     height: 50px;
+}
+
+
+
+
+/* HOVERT STYLE */
+
+a:hover {
+    text-decoration: underline;
+}
+
+li:hover i {
+    transform: translateY(-2px);
 }
