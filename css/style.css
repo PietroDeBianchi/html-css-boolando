@@ -1,5 +1,64 @@
+/* GENERAL STYLE */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER STYLE */
+
+#top-container {
+    width: 100%;
+    position: fixed;
+    /* debug */
+    background-color: orange;
+}
+
+#top-bar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 0;
+}
+
+/* top-link style */
+.top-link {
+    display: flex;
+    color: white;
+}
+
+.top-link li {
+    list-style-type: none;
+    padding: 0 6px;
+}
+
+li a {
+    color: white;
+    font-weight: 700;
+} 
+
+li i {
+    color: white;
+    font-size: 20px;
+} 
+
+/* top-logo style */
+#top-logo{
+    padding-right: 8%;
+}
+
+#top-logo img {
+    height: 50px;
 }
