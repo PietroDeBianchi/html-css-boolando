@@ -13,6 +13,15 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+i {
+    font-size: 23px;
 }
 
 /* HEADER STYLE */
@@ -40,18 +49,15 @@ a {
 }
 
 .top-link li {
-    list-style-type: none;
     padding: 0 6px;
 }
 
-li a {
-    color: white;
+.top-link a {
     font-weight: 700;
 } 
 
-li i {
+.top-link i {
     color: white;
-    font-size: 23px;
     padding: 0 4px;
 } 
 
@@ -68,7 +74,6 @@ li i {
 
 main {
     padding-top: 7.5%;
-    height: 1000px;
 }
 
 #container {
@@ -159,6 +164,37 @@ main {
 
 .real-price {
     text-decoration: line-through;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: rgb(26, 26, 26);
+    padding: 3% 0;
+}
+
+#resource {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h5 {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+footer a {
+    font-size: 12px;
+    padding-right: 5px;
 }
 
 /* HOVERT STYLE */
