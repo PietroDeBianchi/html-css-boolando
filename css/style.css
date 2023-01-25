@@ -20,8 +20,8 @@ a {
 #top-container {
     width: 100%;
     position: fixed;
-    /* debug */
-    background-color: rgb(237, 114, 46)
+    background-color: rgb(237, 114, 46);
+    z-index: 999;
 }
 
 #top-bar {
@@ -64,7 +64,60 @@ li i {
     height: 50px;
 }
 
+/* MAIN STYLE */
 
+main {
+    background-color: grey;
+    padding-top: 9%;
+    height: 1000px;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: calc(100% / 3);
+}
+
+.card {
+    position: relative;
+}
+
+/* img stye */
+.product img {
+    width: 100%;
+}
+
+.frontimg {
+    position: absolute;
+    z-index: 2;
+}
+
+.flipimg {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+/* heart style */
+.heart {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    padding: 10px 20px;
+}
+
+.heart button {
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+}
 
 
 /* HOVERT STYLE */
@@ -75,4 +128,12 @@ a:hover {
 
 li:hover i {
     transform: translateY(-2px);
+}
+
+.frontimg:hover {
+    display: none;
+}
+
+.heart:hover i {
+    color: red;
 }
