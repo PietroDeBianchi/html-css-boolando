@@ -211,6 +211,10 @@ li:hover i {
     display: none;
 }
 
+.product:hover .flipimg {
+    display: block;
+}
+
 .heart:hover i {
     color: red;
 }
